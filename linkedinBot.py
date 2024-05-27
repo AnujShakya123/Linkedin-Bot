@@ -14,8 +14,8 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 TELEGRAM_TOKEN = '6332330468:AAFz9Mj3Bl1d2ANf9ug4IuB2PcsTvH2yYUE'
 
 # LinkedIn credentials
-LINKEDIN_EMAIL = 'anujshakya808@gmail.com'
-LINKEDIN_PASSWORD = 'Anuj@8645'
+LINKEDIN_EMAIL = ''
+LINKEDIN_PASSWORD = ''
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hello! Send me a LinkedIn post link, and I will send a message to the author.')
